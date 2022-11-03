@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":212:{a:2:{s:7:"defects";a:1:{s:44:"Tests\Api\Profile\Other\ProfileTest::testGet";i:4;}s:5:"times";a:1:{s:44:"Tests\Api\Profile\Other\ProfileTest::testGet";d:0.2099999999999999922284388276239042170345783233642578125;}}}

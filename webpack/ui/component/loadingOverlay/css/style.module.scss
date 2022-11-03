@@ -1,0 +1,22 @@
+.loadingContainer {
+  position: relative;
+  .loadingOverlay {
+    background-color: var(--color-overlay-loading-bg);
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: z("overlay");
+    top: 0;
+    left: 0;
+  }
+  .loadingImage {
+    width: 10em;
+    height: 10em;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image: url('../assets/loading.gif');
+    z-index: z("overlay");
+  }
+}

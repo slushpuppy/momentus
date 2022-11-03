@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":261:{a:2:{s:7:"defects";a:1:{s:68:"Tests\Module\Notification\Websocket\ChannelTest::testChannelCreation";i:5;}s:5:"times";a:1:{s:68:"Tests\Module\Notification\Websocket\ChannelTest::testChannelCreation";d:0.08200000000000000344169137633798527531325817108154296875;}}}

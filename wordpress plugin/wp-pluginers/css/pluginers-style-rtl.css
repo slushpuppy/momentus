@@ -1,0 +1,10 @@
+#col-left{
+float: right;
+}
+#col-right{
+float: left;
+clear: none;
+}
+a.add-new-h2{
+display: inline-block;
+}

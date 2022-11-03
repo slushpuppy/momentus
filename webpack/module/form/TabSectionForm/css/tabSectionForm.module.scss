@@ -1,0 +1,21 @@
+.saveBtnWrapper {
+  position:fixed;
+  bottom: 1.5em;
+  left:0;
+  width: 100%;
+  z-index: 9999;
+  height: 2em;
+  .saveBtn {
+    color: var(--color-bg-primary-text);
+    background-color: var(--color-bg-primary);
+    text-align: center;
+    margin: auto 0.25em auto 0.25em;
+    padding: 0.5em;
+    width: calc(100% - 0.5em);
+    vertical-align: middle;
+  }
+  .scrollFix {
+    background-color: transparent;
+    width: 100%;
+  }
+}

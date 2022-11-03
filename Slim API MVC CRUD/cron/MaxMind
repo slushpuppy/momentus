@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /var/www/rust.bike/www/Module/GeoIP/dat
+
+wget https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz -O geolite.tar.gz
+
+tar -xf geolite.tar.gz --wildcards "*.mmdb" --strip=1
+
+rm geolite.tar.gz

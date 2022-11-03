@@ -1,0 +1,354 @@
+[2019-04-16 10:17:50] websocket/index  - Array
+(
+    [TEMP] => /tmp
+    [TMPDIR] => /tmp
+    [TMP] => /tmp
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [HOSTNAME] => 
+    [USER] => rust.bike
+    [HOME] => /home/rust.bike
+    [HTTP_CONTENT_LENGTH] => 6
+    [HTTP_CONTENT_TYPE] => application/websocket-events
+    [HTTP_CONNECTION_ID] => fa2e6f01-2d2f-4f58-aa51-c336b2d50895
+    [HTTP_ACCEPT] => application/websocket-events
+    [HTTP_SEC_WEBSOCKET_EXTENSIONS] => grip
+    [HTTP_X_FORWARDED_PROTOCOL] => wss
+    [HTTP_X_FORWARDED_PROTO] => wss
+    [HTTP_GRIP_FEATURE] => status
+    [HTTP_GRIP_SIG] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTU0Mjc4NzAsImlzcyI6InB1c2hwaW4ifQ.0-_rS3tilwMT017QyrbcZXPRLDrl5m8T96tXyhNJPc8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+    [HTTP_SEC_WEBSOCKET_VERSION] => 13
+    [HTTP_SEC_WEBSOCKET_KEY] => M/PdL8q2gz4rfgfVLHwWgw==
+    [HTTP_PRAGMA] => no-cache
+    [HTTP_ORIGIN] => https://www.websocket.org
+    [HTTP_COOKIE] => __cfduid=daaf9bde645b96fe98367af096bd57ee31555071434
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => deflate, gzip
+    [HTTP_HOST] => rust.bike
+    [SCRIPT_FILENAME] => /www//app/websocket/index.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => rust.bike
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 52650
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.15.11
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [PATH_TRANSLATED] => /var/www/rust.bike/www/app/websocket/index.php
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => /www/
+    [DOCUMENT_URI] => /app/websocket/index.php
+    [REQUEST_URI] => /app/websocket/?encoding=text
+    [SCRIPT_NAME] => /app/websocket/index.php
+    [CONTENT_LENGTH] => 6
+    [CONTENT_TYPE] => application/websocket-events
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => encoding=text
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /app/websocket/index.php
+    [REQUEST_TIME_FLOAT] => 1555424270.9159
+    [REQUEST_TIME] => 1555424270
+)
+
+
+[2019-04-16 10:17:53] websocket/index  - Array
+(
+    [TEMP] => /tmp
+    [TMPDIR] => /tmp
+    [TMP] => /tmp
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [HOSTNAME] => 
+    [USER] => rust.bike
+    [HOME] => /home/rust.bike
+    [HTTP_CONTENT_LENGTH] => 14
+    [HTTP_CONTENT_TYPE] => application/websocket-events
+    [HTTP_CONNECTION_ID] => fa2e6f01-2d2f-4f58-aa51-c336b2d50895
+    [HTTP_ACCEPT] => application/websocket-events
+    [HTTP_SEC_WEBSOCKET_EXTENSIONS] => grip
+    [HTTP_X_FORWARDED_PROTOCOL] => wss
+    [HTTP_X_FORWARDED_PROTO] => wss
+    [HTTP_GRIP_FEATURE] => status
+    [HTTP_GRIP_SIG] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTU0Mjc4NzAsImlzcyI6InB1c2hwaW4ifQ.0-_rS3tilwMT017QyrbcZXPRLDrl5m8T96tXyhNJPc8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+    [HTTP_SEC_WEBSOCKET_VERSION] => 13
+    [HTTP_SEC_WEBSOCKET_KEY] => M/PdL8q2gz4rfgfVLHwWgw==
+    [HTTP_PRAGMA] => no-cache
+    [HTTP_ORIGIN] => https://www.websocket.org
+    [HTTP_COOKIE] => __cfduid=daaf9bde645b96fe98367af096bd57ee31555071434
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => deflate, gzip
+    [HTTP_HOST] => rust.bike
+    [SCRIPT_FILENAME] => /www//app/websocket/index.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => rust.bike
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 52650
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.15.11
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [PATH_TRANSLATED] => /var/www/rust.bike/www/app/websocket/index.php
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => /www/
+    [DOCUMENT_URI] => /app/websocket/index.php
+    [REQUEST_URI] => /app/websocket/?encoding=text
+    [SCRIPT_NAME] => /app/websocket/index.php
+    [CONTENT_LENGTH] => 14
+    [CONTENT_TYPE] => application/websocket-events
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => encoding=text
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /app/websocket/index.php
+    [REQUEST_TIME_FLOAT] => 1555424273.0356
+    [REQUEST_TIME] => 1555424273
+)
+
+
+[2019-04-20 16:26:54] C:\WTServer\WWW\rust\Lib\Core\Controller\AbstractController.php [275] #0 C:\WTServer\WWW\rust\Module\Notification\Websocket\Channel.php(49): Lib\Core\Controller\AbstractController->__set('channel_name', 'user-1')
+#1 C:\WTServer\WWW\rust\Module\User\Account.php(211): Module\Notification\Websocket\Channel->setChannelSubscriptionName('user', 1)
+#2 C:\WTServer\WWW\rust\Module\User\Account.php(68): Module\User\Account->save(false)
+#3 C:\WTServer\WWW\rust\Tests\Init.php(77): Module\User\Account::create('1233@shark.com', '1puppy', 'luke', 'lim', '+2732342243', 'Singapore')
+#4 C:\WTServer\WWW\rust\Tests\bootstrap.php(25): Tests\Init::setUp()
+#5 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(59): include_once('C:\\WTServer\\WWW...')
+#6 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(47): PHPUnit\Util\FileLoader::load('C:\\WTServer\\WWW...')
+#7 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(1059): PHPUnit\Util\FileLoader::checkAndLoad('C:\\WTServer\\WWW...')
+#8 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(913): PHPUnit\TextUI\Command->handleBootstrap('C:\\WTServer\\WWW...')
+#9 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(174): PHPUnit\TextUI\Command->handleArguments(Array)
+#10 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(163): PHPUnit\TextUI\Command->run(Array, true)
+#11 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#12 {main} - Column channel_name does not exist
+
+[2019-04-20 16:36:40] C:\WTServer\WWW\rust\Lib\Core\Controller\AbstractController.php [275] #0 C:\WTServer\WWW\rust\Module\Notification\Websocket\Channel.php(50): Lib\Core\Controller\AbstractController->__set('channel_name', 'user-1')
+#1 C:\WTServer\WWW\rust\Module\User\Account.php(211): Module\Notification\Websocket\Channel->setChannelSubscriptionName('user', 1)
+#2 C:\WTServer\WWW\rust\Module\User\Account.php(68): Module\User\Account->save(false)
+#3 C:\WTServer\WWW\rust\Tests\Init.php(77): Module\User\Account::create('1233@shark.com', '1puppy', 'luke', 'lim', '+2732342243', 'Singapore')
+#4 C:\WTServer\WWW\rust\Tests\bootstrap.php(25): Tests\Init::setUp()
+#5 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(59): include_once('C:\\WTServer\\WWW...')
+#6 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(47): PHPUnit\Util\FileLoader::load('C:\\WTServer\\WWW...')
+#7 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(1059): PHPUnit\Util\FileLoader::checkAndLoad('C:\\WTServer\\WWW...')
+#8 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(913): PHPUnit\TextUI\Command->handleBootstrap('C:\\WTServer\\WWW...')
+#9 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(174): PHPUnit\TextUI\Command->handleArguments(Array)
+#10 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(163): PHPUnit\TextUI\Command->run(Array, true)
+#11 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#12 {main} - Column channel_name does not exist
+
+[2019-04-20 16:37:47] C:\WTServer\WWW\rust\Lib\Core\Controller\AbstractController.php [275] #0 C:\WTServer\WWW\rust\Module\Notification\Websocket\Channel.php(50): Lib\Core\Controller\AbstractController->__set('channel_name', 'user-1')
+#1 C:\WTServer\WWW\rust\Module\User\Account.php(211): Module\Notification\Websocket\Channel->setChannelSubscriptionName('user', 1)
+#2 C:\WTServer\WWW\rust\Module\User\Account.php(68): Module\User\Account->save(false)
+#3 C:\WTServer\WWW\rust\Tests\Init.php(77): Module\User\Account::create('1233@shark.com', '1puppy', 'luke', 'lim', '+2732342243', 'Singapore')
+#4 C:\WTServer\WWW\rust\Tests\bootstrap.php(25): Tests\Init::setUp()
+#5 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(59): include_once('C:\\WTServer\\WWW...')
+#6 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(47): PHPUnit\Util\FileLoader::load('C:\\WTServer\\WWW...')
+#7 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(1059): PHPUnit\Util\FileLoader::checkAndLoad('C:\\WTServer\\WWW...')
+#8 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(913): PHPUnit\TextUI\Command->handleBootstrap('C:\\WTServer\\WWW...')
+#9 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(174): PHPUnit\TextUI\Command->handleArguments(Array)
+#10 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(163): PHPUnit\TextUI\Command->run(Array, true)
+#11 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#12 {main} - Column channel_name does not exist
+
+[2019-04-21 15:28:39] C:\WTServer\WWW\rust\Lib\Core\Controller\AbstractController.php [226] #0 C:\WTServer\WWW\rust\Module\User\Account.php(211): Lib\Core\Controller\AbstractController->__get('user_id')
+#1 C:\WTServer\WWW\rust\Module\User\Account.php(69): Module\User\Account->save(false)
+#2 C:\WTServer\WWW\rust\Tests\Init.php(77): Module\User\Account::create('1233@shark.com', '1puppy', 'luke', 'lim', '+2732342243', 'Singapore')
+#3 C:\WTServer\WWW\rust\Tests\bootstrap.php(25): Tests\Init::setUp()
+#4 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(59): include_once('C:\\WTServer\\WWW...')
+#5 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\Util\FileLoader.php(47): PHPUnit\Util\FileLoader::load('C:\\WTServer\\WWW...')
+#6 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(1059): PHPUnit\Util\FileLoader::checkAndLoad('C:\\WTServer\\WWW...')
+#7 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(913): PHPUnit\TextUI\Command->handleBootstrap('C:\\WTServer\\WWW...')
+#8 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(174): PHPUnit\TextUI\Command->handleArguments(Array)
+#9 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\src\TextUI\Command.php(163): PHPUnit\TextUI\Command->run(Array, true)
+#10 C:\WTServer\WWW\rust\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#11 {main} - Column user_id does not exist
+
+[2019-04-22 06:04:06] C:\WTServer\WWW\rust\Lib\Core\Helper\Db\mysqli_stmt.php [40] #0 C:\WTServer\WWW\rust\Lib\Core\Controller\AbstractController.php(343): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\rust\Module\User\Account.php(209): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\rust\Module\User\Account.php(69): Module\User\Account->save(false)
+#3 C:\WTServer\WWW\rust\Tests\Init.php(79): Module\User\Account::create('new@user.com', '2puppy', 'luke', 'lim', '+2732777342243', 'Singapore')
+#4 C:\WTServer\WWW\rust\Tests\app\websocket\subscriptionTest.php(7): Tests\Init::setUp()
+#5 {main} - Duplicate entry 'new@user.com' for key 'email'
+
+[2020-04-07 12:47:33] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586263653, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 12:49:43] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586263783, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 12:50:29] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586263829, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 12:50:56] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586263856, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:04:44] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264684, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:06:16] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264776, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:06:58] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264818, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:07:45] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264865, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:08:58] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264938, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:09:31] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586264971, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:12:32] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586265152, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:14:02] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586265242, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:19:26] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586265566, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:20:36] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586265636, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 13:21:39] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586265699, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-07 14:13:01] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(60): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586268781, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 07:25:59] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586330759, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:33:33] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586338413, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:34:00] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586338440, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:38:07] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('arnas.gutau@gma...', 1586338687, 0, 'Others')
+#3 {main} - Duplicate entry 'arnas.gutau@gmail.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:47:16] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('arnas.gutau@gma...', 1586339236, 0, 'Others')
+#3 {main} - Duplicate entry 'arnas.gutau@gmail.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:48:45] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339325, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:51:47] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339507, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:53:01] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339581, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:55:48] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339748, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:56:55] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339815, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 09:59:41] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586339981, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 10:00:36] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586340036, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 10:01:37] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586340097, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-08 10:10:08] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586340608, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-09 13:08:16] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli.php [22] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(349): Lib\Core\Helper\Db\mysqli->prepare('INSERT INTO use...')
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586437696, 0, 'Others')
+#3 {main} - Table 'pinkofhealth.co.user' doesn't exist
+
+[2020-04-12 14:15:47] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1586700946, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-16 16:00:21] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1587052821, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-19 04:34:32] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1587270872, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-19 04:36:57] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1587271017, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+
+[2020-04-19 04:38:14] C:\WTServer\WWW\pinkofhealth\Lib\Core\Helper\Db\mysqli_stmt.php [39] #0 C:\WTServer\WWW\pinkofhealth\Lib\Core\Controller\AbstractController.php(351): Lib\Core\Helper\Db\mysqli_stmt->execute()
+#1 C:\WTServer\WWW\pinkofhealth\Module\User\Account.php(61): Lib\Core\Controller\AbstractController->save(false)
+#2 C:\WTServer\WWW\pinkofhealth\handler\oauth\internal\connect.php(12): Module\User\Account::create('test@test.com', 1587271094, 0, 'Others')
+#3 {main} - Duplicate entry 'test@test.com' for key 'email_UNIQUE'
+

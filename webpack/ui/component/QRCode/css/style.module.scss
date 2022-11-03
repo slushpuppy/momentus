@@ -1,0 +1,30 @@
+.flashLight {
+  text-align: center;
+  svg {
+    width: 5vw;
+    height: auto;
+    max-width: 4em;
+
+  }
+}
+
+$scanOverlayBorder: white 2rem, transparent 1rem;
+
+.videoContainer {
+  position: relative;
+  .videoOverlay {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    background-color: transparent;
+
+    background-image: linear-gradient(to right, $scanOverlayBorder), linear-gradient(to right, $scanOverlayBorder), linear-gradient(to bottom, $scanOverlayBorder), linear-gradient(to bottom, $scanOverlayBorder);
+    background-size: 100% 5px, 100% 5px, 5px 100%, 5px 100%;
+    background-position: -15px 0%, -15px 100%, 0% -15px, 100% -15px;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    top: 20%;
+    left: 20%;
+    border-radius: 0.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+$s-namespace: 'module-form-builder-tabBuilder';
+
+:export {
+  s-namespace: $s-namespace;
+}
+.tabNav {
+  justify-content: center;
+}
+
+.tabNav {
+  .tab {
+    span, li {
+      margin: 2rem;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  [data-form-tab-new] {
+    cursor: pointer;
+  }
+}
+
+
+
+.tabNav .disabled {
+    cursor: auto !important;
+    color: var(--color-disabled) !important;
+}

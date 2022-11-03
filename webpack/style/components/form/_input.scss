@@ -1,0 +1,15 @@
+@import "../../abstract/mixin";
+
+input {
+  margin: 0.25rem;
+  color: var(--color-font-default);
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-font-default);
+  outline: none;
+  &:disabled {
+  }
+  &:hover, &:active,&:focus {
+    @extend .boxShadow;
+    outline: none;
+  }
+}

@@ -1,0 +1,37 @@
+$profileHeaderHeight: 20vh;
+$profileHeaderMaxHeight: 10rem;
+
+
+.profileHeader {
+  background-color: var(--color-bg-secondary);
+  height: $profileHeaderHeight;
+  max-height: $profileHeaderMaxHeight;
+  margin: 0 0 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .infoPane {
+    width: 70vw;
+    max-width: 20rem;
+    .avatar {
+      border: var(--color-border-user-avatar);
+      border-radius: 50%;
+      margin: 0.75rem;
+      img {
+        height: calc(#{$profileHeaderHeight} * 0.7);
+        max-height: calc(#{$profileHeaderMaxHeight} * 0.7);
+        width: calc(#{$profileHeaderHeight} * 0.7);
+        max-width: calc(#{$profileHeaderMaxHeight} * 0.7);
+      }
+    }
+    .displayName {
+      font-weight: bold;
+      color: var(--color-font-default);
+    }
+    .desc {
+      color: var(--color-secondary);
+    }
+  }
+
+}

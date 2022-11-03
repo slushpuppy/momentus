@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":203:{a:2:{s:7:"defects";a:1:{s:40:"api\V1\Social\Group\CreateTest::testPost";i:6;}s:5:"times";a:1:{s:40:"api\V1\Social\Group\CreateTest::testPost";d:0.290999999999999980904163976447307504713535308837890625;}}}

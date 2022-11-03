@@ -1,0 +1,23 @@
+
+[data-ui-component-card] {
+  background-color: var(--color-bg-primary);
+  color: var(--color-bg-primary-text);
+  border-radius: 2em 2em 0 0;
+  padding: 1em 0.5em;
+  min-height: 50vh;
+  min-width: 30vw;
+
+  .header {
+    font-weight: bold;
+    font-size: var(--font-size-header);
+    padding: 0.5rem;
+  }
+
+  .content {
+    padding: 0.5rem;
+    min-height: 5rem;
+    max-width: 10rem;
+    background-color: var(--color-bg-primary-text);
+
+  }
+}

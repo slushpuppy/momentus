@@ -1,0 +1,1256 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "RUST API",
+        "description": "RUST API",
+        "contact": {
+            "email": "luke.lim@glass-security.com.sg"
+        },
+        "version": "0.1"
+    },
+    "servers": [
+        {
+            "url": "https://rust.bike/api/v1/",
+            "description": "RUST API HOST"
+        }
+    ],
+    "paths": {
+        "/garage/motorcycle/{bikeID}": {
+            "get": {
+                "summary": "Get Bike Information",
+                "description": "Get Bike Information",
+                "operationId": "api\\V1\\Garage\\Motorcycle::get",
+                "parameters": [
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseMotorcycles"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            },
+            "post": {
+                "summary": "Update existing bike in garage",
+                "description": "Update existing bike in garage",
+                "operationId": "api\\V1\\Garage\\Motorcycle::patchMultiPart",
+                "parameters": [
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Input data",
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Vehicle"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after updating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseMotorcycle"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            },
+            "delete": {
+                "summary": "Deletes bike",
+                "description": "Deletes bike",
+                "operationId": "api\\V1\\Garage\\Motorcycle::delete",
+                "parameters": [
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after updating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/garage/motorcycle": {
+            "post": {
+                "summary": "Create a new bike in garage",
+                "description": "Create a new bike in garage",
+                "operationId": "api\\V1\\Garage\\Motorcycle::post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Vehicle"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseMotorcycle"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/garage/service/{bikeID}/{serviceID}": {
+            "get": {
+                "summary": "Get service Information",
+                "description": "Get service Information",
+                "operationId": "api\\V1\\Garage\\Service::get",
+                "parameters": [
+                    {
+                        "name": "serviceID",
+                        "in": "path",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        }
+                    },
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseServiceEntry"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            },
+            "post": {
+                "summary": "Create a new bike or update existing bike in garage",
+                "description": "Create a new bike or update existing bike  in garage",
+                "operationId": "api\\V1\\Garage\\Service::post",
+                "parameters": [
+                    {
+                        "name": "serviceID",
+                        "in": "path",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        }
+                    },
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/RequestServiceEntry"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseServiceEntry"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/garage/motorcycle/{serviceId}": {
+            "delete": {
+                "summary": "Deletes service",
+                "description": "Deletes service",
+                "operationId": "api\\V1\\Garage\\Service::delete",
+                "parameters": [
+                    {
+                        "name": "bikeID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after updating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/search/motorcycle": {
+            "get": {
+                "summary": "search for bike model",
+                "description": "Get Bike Information",
+                "operationId": "api\\V1\\Search\\Motorcycle::get",
+                "parameters": [
+                    {
+                        "name": "full_search",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseMotorcycleSearch"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/search/part": {
+            "get": {
+                "summary": "search for bike part",
+                "description": "Get Bike part Information",
+                "operationId": "api\\V1\\Search\\Part::get",
+                "parameters": [
+                    {
+                        "name": "full_search",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after Creating motorcycle vehicle",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponsePartSearch"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/social/group/edit": {
+            "post": {
+                "summary": "Creates a social group",
+                "description": "Creates a social group",
+                "operationId": "api\\V1\\Social\\Group\\Edit::post",
+                "requestBody": {
+                    "description": "Input data",
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "properties": {
+                                    "new_avatar": {
+                                        "description": "Group Avatar file",
+                                        "type": "string",
+                                        "format": "binary"
+                                    },
+                                    "title": {
+                                        "description": "title of group",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/social/group/edit/{groupID}": {
+            "patch": {
+                "summary": "Edit a social group",
+                "description": "Edit a social group",
+                "operationId": "api\\V1\\Social\\Group\\Edit::patch",
+                "parameters": [
+                    {
+                        "name": "groupID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Input data",
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "properties": {
+                                    "new_avatar": {
+                                        "description": "Group Avatar file",
+                                        "type": "string",
+                                        "format": "binary"
+                                    },
+                                    "title": {
+                                        "description": "title of group",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/social/group/edit/{groupId}": {
+            "delete": {
+                "summary": "deletes a social group",
+                "description": "deletes a social group",
+                "operationId": "api\\V1\\Social\\Group\\Edit::delete",
+                "parameters": [
+                    {
+                        "name": "groupId",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/social/group/create": {
+            "post": {
+                "summary": "Join social group",
+                "description": "Join social group",
+                "operationId": "api\\V1\\Social\\Group\\Event\\Create::post",
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/social/group/member/{groupID}": {
+            "post": {
+                "summary": "Join social group",
+                "description": "Join social group",
+                "operationId": "api\\V1\\Social\\Group\\Member::post",
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            },
+            "delete": {
+                "summary": "Leaves social group",
+                "description": "Leaves social group",
+                "operationId": "api\\V1\\Social\\Group\\Member::delete",
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/user/document_vault/{mediaID}": {
+            "delete": {
+                "summary": "Delete document from vault",
+                "description": "Delete document from vault",
+                "operationId": "api\\V1\\User\\DocumentVault::delete",
+                "parameters": [
+                    {
+                        "name": "mediaID",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after deleting document",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/user/public/profile/{userId}": {
+            "get": {
+                "summary": "Get User Profile information from user ID",
+                "description": "Get user profile",
+                "operationId": "api\\V1\\User\\Other\\Profile::get",
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/user/position": {
+            "post": {
+                "summary": "Update user position",
+                "description": "Update user position",
+                "operationId": "api\\V1\\User\\Position::post",
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Response"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        },
+        "/user/profile": {
+            "get": {
+                "summary": "Get All User Profile information",
+                "description": "Update user profile",
+                "operationId": "api\\V1\\User\\Profile::get",
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseProfile"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            },
+            "post": {
+                "summary": "Update user avatar",
+                "description": "Update user avatar",
+                "operationId": "api\\V1\\User\\Profile::post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/RequestProfile"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Response after submitting user request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseProfile"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    "accountBearer"
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "RequestServiceEntry": {
+                "properties": {
+                    "start_time": {
+                        "description": "start time of service",
+                        "type": "integer"
+                    },
+                    "end_time": {
+                        "description": "end time of service",
+                        "type": "integer"
+                    },
+                    "review": {
+                        "description": "review",
+                        "type": "string"
+                    },
+                    "parts": {
+                        "description": "Parts list ID",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        }
+                    },
+                    "docs": {
+                        "description": "List of uploaded documents",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "format": "binary"
+                        }
+                    },
+                    "docs_type": {
+                        "description": "document file type",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "receipt_photo",
+                                "service_photo",
+                                "odometry_photo"
+                            ]
+                        }
+                    },
+                    "service_types": {
+                        "description": "List of service types",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "general_service",
+                                "tune_up",
+                                "full_service",
+                                "valve_clearance",
+                                "accident_repair",
+                                "breakdown_repair",
+                                "checkup",
+                                "preventive_repair",
+                                "modification"
+                            ]
+                        }
+                    },
+                    "is_draft": {
+                        "description": "1 for draft 0 for full submission",
+                        "type": "integer"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "RequestServiceEntry"
+                }
+            },
+            "ResponseMotorcycle": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseMotorcycle"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "$ref": "#/components/schemas/Vehicle"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ResponseMotorcycles": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseMotorcycle"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/Vehicle"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "ResponseServiceEntry": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseServiceEntry"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/ServiceEntry"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "ServiceDocument": {
+                "type": "object",
+                "xml": {
+                    "name": "ServiceDocument"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Document"
+                    },
+                    {
+                        "properties": {
+                            "type": {
+                                "description": "Document type",
+                                "type": "string",
+                                "enum": [
+                                    "receipt_photo",
+                                    "service_photo",
+                                    "odometry_photo"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "ServiceEntry": {
+                "properties": {
+                    "id": {
+                        "description": "Only used in response body`",
+                        "type": "integer"
+                    },
+                    "start_time": {
+                        "description": "start time of service",
+                        "type": "integer"
+                    },
+                    "end_time": {
+                        "description": "end time of service",
+                        "type": "integer"
+                    },
+                    "review": {
+                        "description": "review",
+                        "type": "string"
+                    },
+                    "parts": {
+                        "description": "Parts list",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        }
+                    },
+                    "docs": {
+                        "description": "List of uploaded media documents",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ServiceDocument"
+                        }
+                    },
+                    "service_types": {
+                        "description": "List of service types",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "general_service",
+                                "tune_up",
+                                "full_service",
+                                "valve_clearance",
+                                "accident_repair",
+                                "breakdown_repair",
+                                "checkup",
+                                "preventive_repair",
+                                "modification"
+                            ]
+                        }
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "ServiceEntry"
+                }
+            },
+            "Vehicle": {
+                "properties": {
+                    "id": {
+                        "description": "Only used in response body`",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "avatar_url": {
+                        "description": "Vehicle Avatar url - Only in response body",
+                        "type": "string"
+                    },
+                    "model": {
+                        "type": "string"
+                    },
+                    "model_id": {
+                        "type": "integer"
+                    },
+                    "owner_id": {
+                        "type": "integer"
+                    },
+                    "vin": {
+                        "type": "string"
+                    },
+                    "new_avatar": {
+                        "description": "Vehicle Avatar file - Only in request body",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "Vehicle"
+                }
+            },
+            "Document": {
+                "properties": {
+                    "id": {
+                        "description": "media id",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "type": {
+                        "description": "Only used in response body`",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "url",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "Document"
+                }
+            },
+            "Response": {
+                "properties": {
+                    "data": {
+                        "format": "mixed"
+                    },
+                    "status": {
+                        "type": "string",
+                        "format": "string",
+                        "enum": [
+                            "OK",
+                            "ERROR",
+                            "INVALID_PARAM",
+                            "SERVER_ERROR",
+                            "ID_NOT_FOUND"
+                        ]
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "Response"
+                }
+            },
+            "AccessTokenJWT": {
+                "properties": {
+                    "access_token": {
+                        "description": "access token",
+                        "type": "string"
+                    },
+                    "expiry": {
+                        "description": "expiry of jwt and access token",
+                        "type": "int"
+                    },
+                    "scope": {
+                        "description": "access token scope separated by space",
+                        "type": "string"
+                    },
+                    "jwt": {
+                        "description": "jwt session data",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "AccessTokenJWT"
+                }
+            },
+            "ResponseAccessTokenJWT": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseAccessTokenJWT"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "$ref": "#/components/schemas/AccessTokenJWT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ResponseJWT": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseJWT"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "$ref": "#/components/schemas/JWT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "MotorcycleModel": {
+                "properties": {
+                    "id": {
+                        "description": "motorcycle id",
+                        "type": "int"
+                    },
+                    "name": {
+                        "description": "motorcycle name",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "MotorcycleModel"
+                }
+            },
+            "PartModel": {
+                "properties": {
+                    "id": {
+                        "description": "Id of model",
+                        "type": "int"
+                    },
+                    "name": {
+                        "description": "model component name",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "PartModel"
+                }
+            },
+            "ResponseMotorcycleSearch": {
+                "properties": {
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/MotorcycleModel"
+                        }
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "ResponseMotorcycleSearch"
+                }
+            },
+            "ResponsePartSearch": {
+                "properties": {
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/PartModel"
+                        }
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "ResponsePartSearch"
+                }
+            },
+            "Profile": {
+                "properties": {
+                    "id": {
+                        "description": "profile ID - only used for other profile viewing",
+                        "type": "int"
+                    },
+                    "avatar_url": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "display_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "first_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "last_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "phone_number": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "country_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "document_vault": {
+                        "description": "List of uploaded documents from document vault",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Document"
+                        }
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "Profile"
+                }
+            },
+            "ProfileFields": {
+                "properties": {
+                    "avatar_url": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "display_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "first_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "last_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "phone_number": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "country_name": {
+                        "type": "string",
+                        "format": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "ProfileFields"
+                }
+            },
+            "RequestProfile": {
+                "properties": {
+                    "new_avatar": {
+                        "description": "Vehicle Avatar file - Only in request body",
+                        "type": "string"
+                    },
+                    "remove_avatar": {
+                        "description": "set to 1 to remove existing avatar",
+                        "type": "int"
+                    },
+                    "avatar_url": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "display_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "first_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "last_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "phone_number": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "country_name": {
+                        "type": "string",
+                        "format": "string"
+                    },
+                    "document_vault": {
+                        "description": "List of uploaded documents from document vault",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "format": "binary"
+                        }
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "RequestProfile"
+                }
+            },
+            "ResponseProfile": {
+                "type": "object",
+                "xml": {
+                    "name": "ResponseProfile"
+                },
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/Response"
+                    },
+                    {
+                        "properties": {
+                            "data": {
+                                "$ref": "#/components/schemas/Profile"
+                            }
+                        }
+                    }
+                ]
+            },
+            "JWT": {
+                "properties": {
+                    "token": {
+                        "description": "Only used in response body`",
+                        "type": "string"
+                    },
+                    "exp": {
+                        "description": "Only used in response body`",
+                        "type": "string"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "JWT"
+                }
+            }
+        },
+        "responses": {},
+        "securitySchemes": {
+            "accountBearer": {
+                "type": "http",
+                "bearerFormat": "jwt",
+                "scheme": "bearer"
+            }
+        }
+    },
+    "externalDocs": {
+        "description": "More information",
+        "url": "https://rust.bike/"
+    }
+}

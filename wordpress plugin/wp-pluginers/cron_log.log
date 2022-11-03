@@ -1,0 +1,365 @@
+[18-Jun-2019 07:14:31 UTC] PicoFeed\Client\Curl Object
+(
+    [nbRedirects:protected] => 0
+    [body:PicoFeed\Client\Curl:private] => <?xml version="1.0"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title><![CDATA[The Star Online Highlights]]></title>
+<link>/TheStar/Website</link>
+<description><![CDATA[Selected stories from The Star Online]]></description>
+<image><title>The Star Online</title><link>https://www.thestar.com.my/</link><url>http://cdn.thestar.com.my/Themes/img/TSOL_Logo125x40.png</url></image>
+<language>en</language>
+<item>
+<guid isPermaLink="false">{F20A228F-9329-4EA2-B40A-16B63CADD4BE}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/kedah-cops-seeking-man-who-allegedly-tried-to-steal-donations-from-police-hq-mosque/</link>
+<title><![CDATA[Kedah cops seeking man who allegedly tried to steal donations from police HQ mosque]]></title>
+<description><![CDATA[ALOR SETAR: Police are looking for a man who allegedly tried to steal from the donation box in a mosque located at the state police contingent headquarters here.]]></description>
+<pubDate>Sun, 10 Sep 2017 20:08:01 +08:00</pubDate>
+<author><![CDATA[G.C.TAN]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/13/15/thiefmosque-100917.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/13/15/thiefmosque-100917.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+<enclosure url="https://content.jwplatform.com/players/QPI64ejY-d74adXtC.html" type="application/x-shockwave-flash" />
+<media:content url="https://content.jwplatform.com/players/QPI64ejY-d74adXtC.html" type="application/x-shockwave-flash"></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{5C13A41D-880B-44BE-987F-3E880D82DB4B}</guid>
+<link>http://www.thestar.com.my/sport/motorsport/2017/09/10/hafizh-gets-podium-finish-at-san-marino-grand-prix/</link>
+<title><![CDATA[Hafizh gets podium finish at San Marino Grand Prix]]></title>
+<description><![CDATA[PETALING JAYA: National Moto2 rider Hafizh Syahrin Abdullah of Petronas Raceline Malaysia has claimed the second podium finish of his career by coming in third at the San Marino Grand Prix.]]></description>
+<pubDate>Sun, 10 Sep 2017 19:50:45 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/12/16/hafizh-gets-podium.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/12/16/hafizh-gets-podium.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+<section><![CDATA[Sport]]></section> </item>
+<item>
+<guid isPermaLink="false">{8D1E1C8E-79DD-4EB5-BD6A-7186A433C7F5}</guid>
+<link>http://www.star2.com/health/wellness/2017/09/10/smoking-is-unhealthy-but-teens-dont-know-how-to-quit/</link>
+<title><![CDATA[Smoking is unhealthy but teens don’t know how to quit]]></title>
+<pubDate>Sun, 10 Sep 2017 19:01:46 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/11/02/smoke-teen-quit.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/11/02/smoke-teen-quit.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+</item>
+<item>
+<guid isPermaLink="false">{E2C3C913-83AD-4FFA-8E73-B617F62904E4}</guid>
+<link>http://www.thestar.com.my/news/world/2017/09/10/hurricane-irmas-fierce-winds-blast-into-florida/</link>
+<title><![CDATA[Hurricane Irma&#39;s fierce winds blast into Florida]]></title>
+<description><![CDATA[Miami (AFP) - Hurricane Irma regained strength Sunday as it began pummeling Florida, lashing its southern island chain with hurricane-force wind gusts and threatening landfall within hours.]]></description>
+<pubDate>Sun, 10 Sep 2017 18:06:25 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/10/08/florida-hiurraince.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/10/08/florida-hiurraince.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[People walk down the street as winds and rain begin to hit as outer bands of Hurricane Irma arrive in Miami Beach, Florida.-AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{DCCBFD78-2EFD-49F6-A637-758501DBD434}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/video-of-man-being-beaten-goes-viral-on-social-media/</link>
+<title><![CDATA[Video of man being beaten goes viral on social media]]></title>
+<description><![CDATA[PETALING JAYA: A video of the brutal beating of a middle-aged man has gone viral on social media.]]></description>
+<pubDate>Sun, 10 Sep 2017 16:14:01 +08:00</pubDate>
+<author><![CDATA[JUSTIN ZACK and MICHELLE TAM]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/08/19/attack-rattan-klang.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/08/19/attack-rattan-klang.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[A screengrab from the video]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{AA22145C-507E-4786-9912-D66B928B01E5}</guid>
+<link>http://www.thestar.com.my/news/regional/2017/09/10/vietnam-floating-market-struggles-to-stay-above-water/</link>
+<title><![CDATA[Vietnam floating market struggles to stay above water]]></title>
+<description><![CDATA[Can Tho (Vietnam) (AFP) - Fixing weighing scales used to be good business on Vietnam&#39;s floating Cai Rang market, but the last repairman on the river now makes just a few dollars a month as modernity pushes traders to land.]]></description>
+<pubDate>Sun, 10 Sep 2017 14:44:06 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/06/46/floating-market-vietnam.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/06/46/floating-market-vietnam.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[A vendor prepares vegetables that she sold to a resident of a house boat in a canal off the Song Hau river in the floating Cai Rang market in Can Tho, a small city of the Mekong Delta.-AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{38AB13B5-BD17-4560-89B1-426F17A26805}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/five-luxury-cars-believed-to-be-splashed-with-acid/</link>
+<title><![CDATA[Five luxury cars believed to be splashed with acid]]></title>
+<description><![CDATA[ALOR SETAR: At least five luxury cars were splashed with liquid believed to be acid at a shopping mall and nearby areas here.
+
+]]></description>
+<pubDate>Sun, 10 Sep 2017 14:30:27 +08:00</pubDate>
+<author><![CDATA[By GC Tan]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/06/34/acid-splash-car.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/06/34/acid-splash-car.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[One of the cars that was splashed with acid.]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{6B87347E-C6FB-437C-98D7-5D35960E5422}</guid>
+<link>http://www.thestar.com.my/news/world/2017/09/10/jake-gyllenhaal-finally-plays-superhero-in-stronger/</link>
+<title><![CDATA[Jake Gyllenhaal finally plays superhero in &#39;Stronger&#39;]]></title>
+<description><![CDATA[Toronto (Canada) (AFP) - A man who lost both legs in the Boston Marathon bombings inspired moviegoers Saturday, walking the red carpet at the Toronto film festival for the premiere of &quot;Stronger.&quot;]]></description>
+<pubDate>Sun, 10 Sep 2017 13:48:54 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/05/53/stronger-jeff-bauman-jake-gyllenhaal-superhero-afp-1009.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/05/53/stronger-jeff-bauman-jake-gyllenhaal-superhero-afp-1009.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[Jake Gyllenhaal listens as Jeff Bauman speaks during the press conference for &quot;Stronger&quot; at the 2017 Toronto International Film Festival. - AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{9949CDD6-0813-448E-A7FD-557A872E2334}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/teenager-lives-in-fear-over-alleged-sexual-trysts/</link>
+<title><![CDATA[Teenager lives in fear over alleged sexual trysts]]></title>
+<description><![CDATA[PETALING JAYA: After having sex almost nine times allegedly with at least five different men, a 17-year-old student now lives in fear.]]></description>
+<pubDate>Sun, 10 Sep 2017 12:09:50 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/04/17/sexual-trysts.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/04/17/sexual-trysts.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[- Filepic]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{57845167-8535-4520-BF6F-D6A353C158A8}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/small-fire-at-sultanah-aminah-hospitals-operation-theatre/</link>
+<title><![CDATA[Small fire at Sultanah Aminah Hospital&#39;s operation theatre]]></title>
+<description><![CDATA[
+JOHOR BARU: A sealer machine caught fire at a packing room of an operation theatre at Sultanah Aminah Hospital (HSA) here on Saturday.
+
+]]></description>
+<pubDate>Sun, 10 Sep 2017 10:56:32 +08:00</pubDate>
+<author><![CDATA[By NABILA AHMAD]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/03/26/fire-aminah-new-sealer.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/03/26/fire-aminah-new-sealer.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[&quot;Firemen investigating the scene at Sultanah Aminah Hospital. Inset: The damaged sealer machine ]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+</channel>
+</rss>
+
+    [body_length:PicoFeed\Client\Curl:private] => 10958
+    [response_headers:PicoFeed\Client\Curl:private] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Date: Tue, 18 Jun 2019 07:13:41 GMT
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: -1
+Server: 
+Set-Cookie: sc_expview=0; path=/
+X-News: TACCA
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Age: 51
+X-Cache: Hit from cloudfront
+Via: 1.1 a29e907d5a7ced98e0f8ec2a4ffc01b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SIN2-C1
+X-Amz-Cf-Id: cYDcdUz65DDTyF7w7vrri3j_T7xxL1PECl-eTlhZbPzqIlF0sDtGOw==
+
+        )
+
+    [response_headers_count:PicoFeed\Client\Curl:private] => 1
+    [is_modified:PicoFeed\Client\Client:private] => 1
+    [content_type:PicoFeed\Client\Client:private] => text/xml; charset=utf-8
+    [encoding:PicoFeed\Client\Client:private] => utf-8
+    [request_headers:protected] => Array
+        (
+        )
+
+    [etag:protected] => 
+    [last_modified:protected] => 
+    [expiration:protected] => DateTime Object
+        (
+            [date] => 2019-06-18 07:14:31.054976
+            [timezone_type] => 1
+            [timezone] => -01:00
+        )
+
+    [proxy_hostname:protected] => 
+    [proxy_port:protected] => 3128
+    [proxy_username:protected] => 
+    [proxy_password:protected] => 
+    [username:protected] => 
+    [password:protected] => 
+    [additional_curl_options:protected] => Array
+        (
+        )
+
+    [timeout:protected] => 10
+    [user_agent:protected] => PicoFeed (https://github.com/miniflux/picoFeed)
+    [url:protected] => http://www.thestar.com.my/rss/editors-choice/main/
+    [content:protected] => <?xml version="1.0"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title><![CDATA[The Star Online Highlights]]></title>
+<link>/TheStar/Website</link>
+<description><![CDATA[Selected stories from The Star Online]]></description>
+<image><title>The Star Online</title><link>https://www.thestar.com.my/</link><url>http://cdn.thestar.com.my/Themes/img/TSOL_Logo125x40.png</url></image>
+<language>en</language>
+<item>
+<guid isPermaLink="false">{F20A228F-9329-4EA2-B40A-16B63CADD4BE}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/kedah-cops-seeking-man-who-allegedly-tried-to-steal-donations-from-police-hq-mosque/</link>
+<title><![CDATA[Kedah cops seeking man who allegedly tried to steal donations from police HQ mosque]]></title>
+<description><![CDATA[ALOR SETAR: Police are looking for a man who allegedly tried to steal from the donation box in a mosque located at the state police contingent headquarters here.]]></description>
+<pubDate>Sun, 10 Sep 2017 20:08:01 +08:00</pubDate>
+<author><![CDATA[G.C.TAN]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/13/15/thiefmosque-100917.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/13/15/thiefmosque-100917.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+<enclosure url="https://content.jwplatform.com/players/QPI64ejY-d74adXtC.html" type="application/x-shockwave-flash" />
+<media:content url="https://content.jwplatform.com/players/QPI64ejY-d74adXtC.html" type="application/x-shockwave-flash"></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{5C13A41D-880B-44BE-987F-3E880D82DB4B}</guid>
+<link>http://www.thestar.com.my/sport/motorsport/2017/09/10/hafizh-gets-podium-finish-at-san-marino-grand-prix/</link>
+<title><![CDATA[Hafizh gets podium finish at San Marino Grand Prix]]></title>
+<description><![CDATA[PETALING JAYA: National Moto2 rider Hafizh Syahrin Abdullah of Petronas Raceline Malaysia has claimed the second podium finish of his career by coming in third at the San Marino Grand Prix.]]></description>
+<pubDate>Sun, 10 Sep 2017 19:50:45 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/12/16/hafizh-gets-podium.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/12/16/hafizh-gets-podium.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+<section><![CDATA[Sport]]></section> </item>
+<item>
+<guid isPermaLink="false">{8D1E1C8E-79DD-4EB5-BD6A-7186A433C7F5}</guid>
+<link>http://www.star2.com/health/wellness/2017/09/10/smoking-is-unhealthy-but-teens-dont-know-how-to-quit/</link>
+<title><![CDATA[Smoking is unhealthy but teens don’t know how to quit]]></title>
+<pubDate>Sun, 10 Sep 2017 19:01:46 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/11/02/smoke-teen-quit.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/11/02/smoke-teen-quit.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[]]></media:description></media:content>
+</item>
+<item>
+<guid isPermaLink="false">{E2C3C913-83AD-4FFA-8E73-B617F62904E4}</guid>
+<link>http://www.thestar.com.my/news/world/2017/09/10/hurricane-irmas-fierce-winds-blast-into-florida/</link>
+<title><![CDATA[Hurricane Irma&#39;s fierce winds blast into Florida]]></title>
+<description><![CDATA[Miami (AFP) - Hurricane Irma regained strength Sunday as it began pummeling Florida, lashing its southern island chain with hurricane-force wind gusts and threatening landfall within hours.]]></description>
+<pubDate>Sun, 10 Sep 2017 18:06:25 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/10/08/florida-hiurraince.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/10/08/florida-hiurraince.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[People walk down the street as winds and rain begin to hit as outer bands of Hurricane Irma arrive in Miami Beach, Florida.-AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{DCCBFD78-2EFD-49F6-A637-758501DBD434}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/video-of-man-being-beaten-goes-viral-on-social-media/</link>
+<title><![CDATA[Video of man being beaten goes viral on social media]]></title>
+<description><![CDATA[PETALING JAYA: A video of the brutal beating of a middle-aged man has gone viral on social media.]]></description>
+<pubDate>Sun, 10 Sep 2017 16:14:01 +08:00</pubDate>
+<author><![CDATA[JUSTIN ZACK and MICHELLE TAM]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/08/19/attack-rattan-klang.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/08/19/attack-rattan-klang.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[A screengrab from the video]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{AA22145C-507E-4786-9912-D66B928B01E5}</guid>
+<link>http://www.thestar.com.my/news/regional/2017/09/10/vietnam-floating-market-struggles-to-stay-above-water/</link>
+<title><![CDATA[Vietnam floating market struggles to stay above water]]></title>
+<description><![CDATA[Can Tho (Vietnam) (AFP) - Fixing weighing scales used to be good business on Vietnam&#39;s floating Cai Rang market, but the last repairman on the river now makes just a few dollars a month as modernity pushes traders to land.]]></description>
+<pubDate>Sun, 10 Sep 2017 14:44:06 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/06/46/floating-market-vietnam.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/06/46/floating-market-vietnam.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[A vendor prepares vegetables that she sold to a resident of a house boat in a canal off the Song Hau river in the floating Cai Rang market in Can Tho, a small city of the Mekong Delta.-AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{38AB13B5-BD17-4560-89B1-426F17A26805}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/five-luxury-cars-believed-to-be-splashed-with-acid/</link>
+<title><![CDATA[Five luxury cars believed to be splashed with acid]]></title>
+<description><![CDATA[ALOR SETAR: At least five luxury cars were splashed with liquid believed to be acid at a shopping mall and nearby areas here.
+
+]]></description>
+<pubDate>Sun, 10 Sep 2017 14:30:27 +08:00</pubDate>
+<author><![CDATA[By GC Tan]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/06/34/acid-splash-car.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/06/34/acid-splash-car.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[One of the cars that was splashed with acid.]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{6B87347E-C6FB-437C-98D7-5D35960E5422}</guid>
+<link>http://www.thestar.com.my/news/world/2017/09/10/jake-gyllenhaal-finally-plays-superhero-in-stronger/</link>
+<title><![CDATA[Jake Gyllenhaal finally plays superhero in &#39;Stronger&#39;]]></title>
+<description><![CDATA[Toronto (Canada) (AFP) - A man who lost both legs in the Boston Marathon bombings inspired moviegoers Saturday, walking the red carpet at the Toronto film festival for the premiere of &quot;Stronger.&quot;]]></description>
+<pubDate>Sun, 10 Sep 2017 13:48:54 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/05/53/stronger-jeff-bauman-jake-gyllenhaal-superhero-afp-1009.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/05/53/stronger-jeff-bauman-jake-gyllenhaal-superhero-afp-1009.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[Jake Gyllenhaal listens as Jeff Bauman speaks during the press conference for &quot;Stronger&quot; at the 2017 Toronto International Film Festival. - AFP]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{9949CDD6-0813-448E-A7FD-557A872E2334}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/teenager-lives-in-fear-over-alleged-sexual-trysts/</link>
+<title><![CDATA[Teenager lives in fear over alleged sexual trysts]]></title>
+<description><![CDATA[PETALING JAYA: After having sex almost nine times allegedly with at least five different men, a 17-year-old student now lives in fear.]]></description>
+<pubDate>Sun, 10 Sep 2017 12:09:50 +08:00</pubDate>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/04/17/sexual-trysts.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/04/17/sexual-trysts.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[- Filepic]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+<item>
+<guid isPermaLink="false">{57845167-8535-4520-BF6F-D6A353C158A8}</guid>
+<link>http://www.thestar.com.my/news/nation/2017/09/10/small-fire-at-sultanah-aminah-hospitals-operation-theatre/</link>
+<title><![CDATA[Small fire at Sultanah Aminah Hospital&#39;s operation theatre]]></title>
+<description><![CDATA[
+JOHOR BARU: A sealer machine caught fire at a packing room of an operation theatre at Sultanah Aminah Hospital (HSA) here on Saturday.
+
+]]></description>
+<pubDate>Sun, 10 Sep 2017 10:56:32 +08:00</pubDate>
+<author><![CDATA[By NABILA AHMAD]]></author>
+<enclosure url="http://www.thestar.com.my/~/media/online/2017/09/10/03/26/fire-aminah-new-sealer.ashx/?crop=1&amp;w=0&amp;h=0" length="" type="image/jpeg" />
+<media:content url="http://www.thestar.com.my/~/media/online/2017/09/10/03/26/fire-aminah-new-sealer.ashx/?crop=1&amp;w=0&amp;h=0" type="image/jpeg"><media:description><![CDATA[&quot;Firemen investigating the scene at Sultanah Aminah Hospital. Inset: The damaged sealer machine ]]></media:description></media:content>
+<section><![CDATA[News]]></section> </item>
+</channel>
+</rss>
+
+    [max_redirects:protected] => 5
+    [max_body_size:protected] => 2097152
+    [status_code:protected] => 200
+    [passthrough:protected] => 
+)
+
+[18-Jun-2019 08:14:11 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:14:34 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:17:58 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:19:39 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:20:22 UTC] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [catid] => 2
+            [engineid] => 1
+            [name] => ssfsd
+            [type] => rss
+            [rsslink] => http%3A%2F%2Fwww.thestar.com.my%2Frss%2Feditors-choice%2Fmain%2F
+            [query] => 
+            [field] => 1
+            [lang] => 
+            [country] => 
+            [date_range] => y1
+            [read_status] => 1
+            [read_error] => Unable to detect feed format
+            [items_count] => 10
+            [category] => 
+            [tags] => 
+            [author_id] => slushpuppy
+            [post_type] => post
+            [post_type_tax] => category
+            [post_status] => draft
+            [post_pubfire] => 0
+            [copyrights] => 0
+            [replace] => 
+            [truncate_limit] => 
+            [truncate_replace] => 
+            [schedule_time] => 
+            [autopublish] => 1
+            [template_id] => 0
+            [featured_image] => 0
+            [ignore_public] => 1
+            [last_update] => 2019-06-18 08:19:39
+            [postdate] => 2019-06-17 11:40:09
+            [social_tracker] => 0
+            [smart_grabber] => 0
+            [smart_grabber_ai] => 1
+            [grabber_allow_tags] => p , br , ul , li , a , img , strong , b , em , hr , i , ol , s , table , tbody , th , tr , td , u , dt , dl , strike , span , blockquote , dd , small , code , pre , tfoot , address , cite , h6 , h5 , h4 , h3 , h2 , h1
+            [grabber_restrict] => a:3:{s:4:"type";s:0:"";s:4:"name";s:0:"";s:5:"value";s:0:"";}
+            [rewrite] => 0
+            [rewrite_title] => 0
+            [alt_content] => 
+            [ignore_nocontent] => 0
+            [ignore_noimages] => 0
+            [ignore_novideos] => 0
+            [original_date] => 0
+            [remove_links] => 0
+            [status] => 1
+            [amazon_products_position] => inbetween
+            [amazon_tags] => ["dog","dog feed"]
+        )
+
+)
+
+[18-Jun-2019 08:20:22 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:20:48 UTC] 2342334
+[18-Jun-2019 08:20:48 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:21:50 UTC] 2342334
+[18-Jun-2019 08:21:50 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:22:15 UTC] 2342334
+[18-Jun-2019 08:22:15 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:42:09 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:42:29 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:43:21 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:43:27 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 08:57:20 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 09:00:51 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 09:02:10 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 09:02:37 UTC] 3243
+[18-Jun-2019 09:02:37 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 09:28:04 UTC] 3243
+[18-Jun-2019 09:28:04 UTC] http://www.thestar.com.my/rss/editors-choice/main/
+[18-Jun-2019 09:39:58 UTC] 3243
+[18-Jun-2019 09:39:58 UTC] http://www.thestar.com.my/rss/editors-choice/main/

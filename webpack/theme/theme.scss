@@ -1,0 +1,55 @@
+
+@function hexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+$z-layers: (
+        "overlay":            9001,
+        "shoryuken":       8000,
+        "default":            1,
+        "below":             -1,
+        "bottomless-pit": -9000
+);
+
+
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+  }
+
+  @return map-get($z-layers, $layer);
+}
+
+$font-stack: niveau-grotesk, sans-serif;
+$font-size-header: 1.2rem;
+
+$color-overlay-loading-bg: rgb(255, 255, 255);
+
+$color-bg-secondary: #c1c1c1;
+
+$color-font-default: #444444;
+$color-border-user-avatar: white;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-rgb: #{hexToRGB($color-primary)};
+  --color-primary-hover: #{$color-primary-hover};
+  --color-bg-primary: #{$color-bg-primary};
+  --color-bg-primary-rgb: #{hexToRGB($color-bg-primary)};
+  --color-bg-primary-text: #{$color-bg-primary-text};
+  --color-secondary: #{$color-secondary};
+  --color-bg-secondary: #{$color-bg-secondary};
+  --color-disabled: #{$color-disabled};
+
+  --color-border-user-avatar: #{$color-border-user-avatar};
+
+  --color-overlay-loading-bg: #{$color-overlay-loading-bg};
+
+  --color-font-default: #{$color-font-default};
+
+  --color-toast-background: #{$color-toast-background};
+
+  --font-stack: #{$font-stack};
+  --font-size-header: #{$font-size-header};
+}
+

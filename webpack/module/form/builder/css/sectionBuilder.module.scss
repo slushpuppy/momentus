@@ -1,0 +1,40 @@
+.sectionBuilderSectionsContainer {
+  position: relative;
+  .addNewSection {
+    cursor: pointer;
+  }
+}
+
+.sectionSortHandle {
+  vertical-align: middle;
+  .moveUp {
+    font-size: 2rem;
+  }
+  .moveDown {
+    font-size: 2rem;
+  }
+}
+
+.sectionHeader {
+  background-color: transparent;
+  .sectionControl {
+    cursor: pointer;
+  }
+  .sectionTitle {
+    color: var(--color-primary);
+    word-break: break-all;
+  }
+  .sectionBuilderControl {
+    padding: 0.25em;
+    .editing {
+      color: var(--color-primary);
+    }
+    .display {
+      color: var(--color-primary);
+    }
+
+  }
+}
+.sectionContent {
+  position: relative;
+}

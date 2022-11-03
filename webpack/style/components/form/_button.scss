@@ -1,0 +1,16 @@
+@import "../../abstract/extend";
+
+button,input[type="submit"],input[type="button"] {
+  margin: 0.25rem;
+  text-align: center;
+  background-color: var(--color-bg-primary);
+  color: var(--color-bg-primary-text);
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  &:disabled {
+    background-color: var(--color-bg-secondary);
+  }
+  &:hover, &:active {
+    @extend .boxShadow;
+  }
+}

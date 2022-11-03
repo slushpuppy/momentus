@@ -1,0 +1,17 @@
+@import "src/style/abstract/extend";
+
+
+button.BtnSecondary,input[type="submit"].BtnSecondary,input[type="button"].BtnSecondary {
+  margin: 0.25rem;
+  text-align: center;
+  background-color: var(--color-bg-primary-text);
+  color: var(--color-secondary);
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  &:disabled {
+    background-color: var(--color-bg-secondary);
+  }
+  &:hover, &:active {
+    @extend .boxShadow;
+  }
+}

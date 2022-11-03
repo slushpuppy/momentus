@@ -1,0 +1,25 @@
+.optionRow {
+  position: relative;
+  .delete {
+    font-size: 1.5rem;
+    li {
+      cursor: pointer;
+    }
+  }
+}
+.optionList {
+  position:relative;
+}
+.optionRowOthers {
+  position:relative;
+}
+.addOption {
+  cursor:pointer;
+}
+.addOthersOption {
+  cursor: pointer;
+  margin: 0.25rem;
+}
+.fieldOptionOthers {
+
+}

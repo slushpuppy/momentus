@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":246:{a:2:{s:7:"defects";a:1:{s:61:"Tests\Module\Garage\Service\ServiceTest::testCreateWithUserID";i:4;}s:5:"times";a:1:{s:61:"Tests\Module\Garage\Service\ServiceTest::testCreateWithUserID";d:0.1559999999999999997779553950749686919152736663818359375;}}}
